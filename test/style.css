@@ -1,0 +1,29 @@
+.contain ul{
+        list-style: none;
+      }
+      .contain ul li  {
+        width:150px;
+        height: 50px;
+        float: left;
+        text-align: center;
+        border: 1px solid white;
+        font-size: 18px;
+        line-height: 50px;
+        background-color: green;
+        position: relative;
+
+      }
+      .contain ul li:hover{
+        background-color: red;
+      }
+      .contain ul ul {
+        display: none;
+      }
+      .contain ul li:hover >ul {
+        display: block;
+      }
+      .contain ul ul ul {
+        margin-left: 100px;
+        top:0px;
+        position: absolute;
+      }
